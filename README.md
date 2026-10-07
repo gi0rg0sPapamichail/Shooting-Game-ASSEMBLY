@@ -185,7 +185,7 @@ The program makes use of BIOS and DOS interrupts for system functionality:
 | `INT 16h` | Keyboard input |
 | `INT 1Ah` | System timer |
 | `INT 21h` | DOS services |
-
+```
 ### Direct Video Memory Access
 
 Instead of relying on a high-level graphics library, the program writes directly to VGA memory.
