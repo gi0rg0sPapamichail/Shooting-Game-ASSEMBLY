@@ -4,6 +4,8 @@ A simple 2D shooting game developed entirely in 8086 Assembly as part of an Asse
 
 The game runs in a DOS environment and uses VGA Mode 13h to create a 320×200 pixel, 256-color graphical game. The player controls a spaceship at the bottom of the screen and must shoot the descending enemy before it reaches the player.
 
+![game preview](preview.png)
+
 ## Game Overview
 
 The objective of the game is to survive while shooting the enemy as it moves horizontally across the screen and gradually descends toward the player.
@@ -121,6 +123,7 @@ The game-over message displays:
 GAME OVER. Enemy moved: \<score\> pixels.
 
 ```
+![score](score.png)
 
 ## Graphics
 
